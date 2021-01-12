@@ -16,7 +16,6 @@ body{
     min-height: 100%;
 }
 
-
 .skill-content-left{
     border-right: 1px dashed#0d6efd;
     border-width: 2px;
@@ -25,6 +24,7 @@ body{
 .container-sidebar{
     border-right: 1px inset #0d6efd;  
     border-width: 2px;
+    min-height: 100%;
 }
 
 a.nav-link{
@@ -35,7 +35,6 @@ a.nav-link:hover{
     color : whitesmoke;
     background-color: #0d6efd;
 }
-
 
 a.nav-link.active{
     color : whitesmoke;
