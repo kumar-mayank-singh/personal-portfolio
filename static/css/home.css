@@ -1,0 +1,44 @@
+/* font */
+.st-font{
+    font-family: 'Redressed', cursive;
+}
+
+.st-font1{
+    font-family: 'Rubik', sans-serif;
+}
+
+html, 
+body{
+    height : 100%;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+
+.skill-content-left{
+    border-right: 1px dashed#0d6efd;
+    border-width: 2px;
+}
+
+.container-sidebar{
+    border-right: 1px inset #0d6efd;  
+    border-width: 2px;
+}
+
+a.nav-link{
+    color : #0d6efd;
+}
+
+a.nav-link:hover{
+    color : whitesmoke;
+    background-color: #0d6efd;
+}
+
+
+a.nav-link.active{
+    color : whitesmoke;
+    background-color: #0d6efd;
+    font-weight: bold;
+}

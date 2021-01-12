@@ -1,0 +1,31 @@
+{% extends 'common/base.html' %}
+{% load static %}
+
+{% block content %}
+<h1 class="font-weight-bold-light st-font text-center mt-5 text-primary"><i class="fas fa-graduation-cap"></i> Education </h1>
+<p class="text-light mb-2 mx-4">To enrich my knowledge and skill, I am lucky to get certified from several famous institutes from my locality. Here I enlist
+    my top certification.
+</p>
+<hr class="border mt-0 ">
+<div class="text-light my-5 mx-4">
+    <div >
+        <h2 class="font-weight-bold-light st-font text-light">
+            <a href="http://www.aecwb.edu.in/" title="College"><img src="{% static 'image/Asansol_Engineering_College_Logo.png'%}" class="img-responsive img-thumbnail" width="40px" height="40px"></a>  College</h2>
+        <p class="mx-5"> <b class="text-primary st-font">B. Tech </b> in Information Technology <br>
+            West Bengal University of Technology, August'14 – July'18, Degree CGPA: 8.24/10 <br>
+            Graduated from <b><a href="http://www.aecwb.edu.in/" class=" text-primary st-font" >Asansol Engineering College(Techno India Group)</a></b>   affiliated to WBUT. <br>
+            Training: Summer Training on Cyber Security, Telecom Essentials by ERICSSON. <br>
+            Project: ACO Algorithm to enhance Reliability Optimization through Energy Harvesting in WSN.</p>
+        <p></p>
+    </div>
+    <div class="my-4">
+        <h2 class="font-weight-bold-light st-font text-light ">
+            <a href="#" title="College"><img src="{% static 'image/dav.jpeg'%}" class="img-responsive img-thumbnail" width="40px" height="40px"></a>
+            High School, Science</h2>
+        <div class="mx-5 my-2">
+            <b> <a href="http://www.dav4bokaro.org/" class="text-primary st-font">DAV Public School(CBSE),</a> </b>  Batch 2013, Score: 90.2%</p>
+            <b> <a href="http://davlodna.com/" class="text-primary st-font">DAV Public School(CBSE),</a> </b>  Batch 2011, Score: CGPA: 9.0/10</p>
+        </div>
+    </div>
+</div>
+{% endblock content %}

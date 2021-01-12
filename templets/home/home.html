@@ -1,0 +1,27 @@
+{% extends 'common/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="my-5">
+        <div class="text-center my-5"><img src="{% static 'image/DSC_0424.JPG'%}" alt="profile" class="img-thumbnail" width="250px" height="150px" >
+        </div>
+    </div>
+    <div class="text-white mx-5">
+        <h1 class="font-weight-bold-light text-primary st-font" >Hello,</h1>
+        <div class="text-justify px-2 " style="line-height: 2rem;">
+            <p style="text-indent:100px;">I am <b class="text-primary st-font">Mayank Singh</b>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aliquid inventore ipsam voluptas voluptatum. Alias magni perferendis, tempora reiciendis nulla deserunt exercitationem modi eos quos voluptatum facilis suscipit quam delectus.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur <b class="text-primary st-font">India is my country</b> adipisicing elit. Incidunt aliquid inventore ipsam voluptas voluptatum. Alias magni perferendis, tempora reiciendis nulla deserunt exercitationem modi eos quos voluptatum facilis suscipit quam delectus.
+            </p>
+    
+        </div>
+        <div class="text-center mb-4">
+            <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="This is currently unavailabel!">
+                <button class="btn btn-outline-primary mx-2" style="pointer-events: none;" type="button" disabled>Hire Me</button>
+                <button class="btn btn-outline-info" style="pointer-events: none;" type="button" disabled>Contact</button>
+            </span>
+        </div>
+        
+    </div>
+{% endblock content %}
